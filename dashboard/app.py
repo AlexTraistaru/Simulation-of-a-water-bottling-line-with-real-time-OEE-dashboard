@@ -3,7 +3,7 @@ import pandas as pd
 import streamlit as st
 from datetime import datetime
 
-SERVER_NAME = r"DESKTOP-G3O3B85\SQLEXPRESS"   
+SERVER_NAME = r"..."   
 DATABASE_NAME = "FabricaImbuteliere"
 
 conn = pyodbc.connect(
