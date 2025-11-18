@@ -95,34 +95,34 @@ OEE (Overall Equipment Effectiveness) is calculated based on three components: A
 
 Measures how much of the planned production time the line was actually running.
 
-\[
+$$
 \text{Availability} = \frac{\text{Planned Time} - \text{Downtime}}{\text{Planned Time}}
-\]
+$$
 
----
 
 ### 2. Performance
 
 Measures how fast the line produced compared to its ideal speed.
+$$
+\text{Performance} = 
+\frac{\text{Actual Output}}
+     {\frac{\text{Run Time}}{\text{Ideal Cycle Time}}}
+$$
 
-\[
-\text{Performance} = \frac{\text{Actual Output}}{\frac{\text{Run Time}}{\text{Ideal Cycle Time}}}
-\]
-
----
 
 ### 3. Quality
 
 Measures how many units were produced without defects.
 
-\[
+$$
 \text{Quality} = \frac{\text{Good Units}}{\text{Total Units}}
-\]
+$$
 
----
 
 ### Final OEE
 
-\[
-\text{OEE} = \text{Availability} \times \text{Performance} \times \text{Quality}
-\]
+$$
+\text{OEE} = 
+\text{Availability} \times \text{Performance} \times \text{Quality}
+$$
+
