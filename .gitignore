@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+
+# Virtual environment
+venv/
+
+# SQL Server database files (in caz ca ajung accidental)
+*.mdf
+*.ldf
+
+# Streamlit artifacts
+.streamlit/
+
+# VSCode junk
+.vscode/
+
+# Logs
+*.log
