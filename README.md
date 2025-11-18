@@ -103,8 +103,9 @@ $$
 ### 2. Performance
 
 Measures how fast the line produced compared to its ideal speed.
+
 $$
-\text{Performance} = 
+\text{Performance} =
 \frac{\text{Actual Output}}
      {\frac{\text{Run Time}}{\text{Ideal Cycle Time}}}
 $$
