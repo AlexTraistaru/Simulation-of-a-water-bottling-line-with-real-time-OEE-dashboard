@@ -14,7 +14,7 @@ The project demonstrates how industrial performance indicators can be collected 
 - The simulator writes production data and machine events at regular intervals.
 - The dashboard reads the data continuously and generates performance analytics.
 
-  The database `FabricaImbuteliere` includes four tables.  
+  The database includes four tables.  
 Below is the structure of each table.
 
 ### 1. Products
